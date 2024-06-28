@@ -7,4 +7,4 @@ class Employee(models.Model):
     contact = models.CharField(max_length=15)
 
     class Meta:
-        db_table = "pyemp_db"
+        db_table = "employee_db"
